@@ -1,18 +1,32 @@
-body {background-color:#222427;}
+body {
+background-color: #222427;;
+color: #ffffff;
+margin: 0;
+font-family: 'Prompt', sans-serif;
+overflow: hidden;
+}
+
 /*template fond custom waves*/
-.curved-div {
-    background-color:#33393f;
-    color: #fff;
+.curve {
+    background-color: #33393f;
+    color: #ffffff;
     text-align: center;
 }
-.curved-div h1 {
-    font-size: 6em;
-    font-family: Arial, sans-serif, lucida;
+.curve h1 {
+    font-size: 5rem;
+    margin-top: 0;
 }
-.curved-div p {
-    font-size: 3em;
-    font-family: Arial, sans-serif, lucida;
+.curve p {
+    font-size: 3rem;
+    margin-bottom: 0;
 }
-.curved-div svg {
+.curve svg {
     display: block;
+}
+
+/*barre des taches*/
+.bdt a {
+    color: #ffffff;
+    font-family: Arial;
+    display: inline;
 }
