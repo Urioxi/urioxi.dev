@@ -1,7 +1,7 @@
-
+body {background-color:#222427;}
 /*template fond custom waves*/
 .curved-div {
-    background: #33393f;
+    background-color:#33393f;
     color: #fff;
     text-align: center;
 }
@@ -10,6 +10,9 @@
     font-family: Arial, sans-serif, lucida;
 }
 .curved-div p {
-    font-size: 1em;
+    font-size: 3em;
     font-family: Arial, sans-serif, lucida;
+}
+.curved-div svg {
+    display: block;
 }
