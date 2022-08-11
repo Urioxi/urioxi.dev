@@ -87,6 +87,9 @@ body.light .bdt a {
     color: #333;
     background-color: #d3d3d0;
 }
+body.light .bdt a:hover {
+    color: rgb(23, 175, 235);
+}
 body.light .svg {
     fill: #d3d3d0;
 }
