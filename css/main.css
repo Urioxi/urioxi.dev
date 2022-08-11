@@ -7,7 +7,7 @@ overflow: hidden;
 }
 
 /*template fond custom waves*/
-.curve {
+ .curve {
     background-color: #33393f;
     color: #ffffff;
     text-align: center;
@@ -22,10 +22,12 @@ overflow: hidden;
 }
 .curve svg {
     display: block;
+} 
+.svg {
+    fill: #222427;
 }
 
 /*barre des taches*/
-
 .bdt li{
     display: inline;
     float:right;
@@ -78,10 +80,13 @@ body.light .btn-toggle {
 background: #333;
 color: #fff;
 }
+body.light .bdt div{
+    background: #d3d3d0;
+}
 body.light .bdt a {
     color: #333;
     background-color: #d3d3d0;
 }
-body.light .curve svg {
-    color: #d3d3d0;
+body.light .svg {
+    fill: #d3d3d0;
 }
