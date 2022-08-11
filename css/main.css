@@ -49,3 +49,39 @@ overflow: hidden;
 .bdt a:hover {
 color:rgb(23, 175, 235);
 }
+
+/*dark mode*/
+.btn-toggle {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 20px;
+    border-radius: 25%;
+    background: #fff;
+    color: #333;
+    border: 1px solid#333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+body.light {
+    color: #333;
+    background: #d3d3d0
+}
+body.light .curve {
+    background-color: #e5e2e2;
+    color: #33393f;
+}
+body.light .btn-toggle {
+background: #333;
+color: #fff;
+}
+body.light .bdt a {
+    color: #333;
+    background-color: #d3d3d0;
+}
+body.light .curve svg {
+    color: #d3d3d0;
+}
